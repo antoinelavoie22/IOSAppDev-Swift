@@ -8,19 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		351CDDD127990241001646ED /* waitlisthelper_skeletonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351CDDD027990241001646ED /* waitlisthelper_skeletonApp.swift */; };
-		351CDDD327990241001646ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351CDDD227990241001646ED /* ContentView.swift */; };
 		351CDDD527990244001646ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 351CDDD427990244001646ED /* Assets.xcassets */; };
 		351CDDD827990244001646ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 351CDDD727990244001646ED /* Preview Assets.xcassets */; };
-		351CDDDF27990290001646ED /* FeedbackModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351CDDDE27990290001646ED /* FeedbackModel.swift */; };
+		716A3FF927DD4D6D00361D79 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716A3FF827DD4D6D00361D79 /* ContentView.swift */; };
+		716A3FFB27DD545400361D79 /* FeedbackModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716A3FFA27DD545400361D79 /* FeedbackModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		351CDDCD27990241001646ED /* waitlisthelper-skeleton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "waitlisthelper-skeleton.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		351CDDD027990241001646ED /* waitlisthelper_skeletonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waitlisthelper_skeletonApp.swift; sourceTree = "<group>"; };
-		351CDDD227990241001646ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		351CDDD427990244001646ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		351CDDD727990244001646ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		351CDDDE27990290001646ED /* FeedbackModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedbackModel.swift; path = ../../../waitlisthelper/waitlisthelper/FeedbackModel.swift; sourceTree = "<group>"; };
+		716A3FF827DD4D6D00361D79 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		716A3FFA27DD545400361D79 /* FeedbackModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeedbackModel.swift; path = ../FeedbackModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				351CDDD027990241001646ED /* waitlisthelper_skeletonApp.swift */,
-				351CDDD227990241001646ED /* ContentView.swift */,
-				351CDDDE27990290001646ED /* FeedbackModel.swift */,
+				716A3FFA27DD545400361D79 /* FeedbackModel.swift */,
+				716A3FF827DD4D6D00361D79 /* ContentView.swift */,
 				351CDDD427990244001646ED /* Assets.xcassets */,
 				351CDDD627990244001646ED /* Preview Content */,
 			);
@@ -140,9 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				351CDDDF27990290001646ED /* FeedbackModel.swift in Sources */,
-				351CDDD327990241001646ED /* ContentView.swift in Sources */,
+				716A3FFB27DD545400361D79 /* FeedbackModel.swift in Sources */,
 				351CDDD127990241001646ED /* waitlisthelper_skeletonApp.swift in Sources */,
+				716A3FF927DD4D6D00361D79 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
